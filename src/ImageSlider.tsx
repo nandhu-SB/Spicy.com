@@ -4,6 +4,7 @@ import './ImageSlider.css'
 import f1 from './assets/food/f1.jpg'
 import f2 from './assets/food/f2.jpg'
 import f3 from './assets/food/f3.jpg'
+import f10 from './assets/food/f10.jpg'
 
 
 
@@ -11,7 +12,7 @@ const ImageSlider: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const images = [
-f1,f2,f3
+    f10,f1,f2,f3
     // Add more image URLs as needed
   ];
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 import Logo from "./assets/logo.png";
 import fb from "./assets/fb0.png";
 import ig from "./assets/ig0.png";
@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   const images: string[] = [f1, f2, f3];
-  const [currentIndex, setCurrentIndex] = useState(0);
+  // const [currentIndex, setCurrentIndex] = useState(0);
   // function changeBackground():void{
   //   setCurrentIndex(((currentIndex+1)%images.length))
   //   console.log(currentIndex)
