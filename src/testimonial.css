@@ -1,0 +1,11 @@
+.testimonial{
+    display: flex;
+    overflow: auto;
+    margin: 2%;
+    padding: 2%;
+}
+.testimonial img{
+    margin: 2%;
+    width: 40%;
+    min-width: 550px;
+}

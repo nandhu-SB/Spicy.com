@@ -1,0 +1,28 @@
+.menu{
+
+    overflow: auto;
+    max-height:200px;
+    width: 100%;
+    margin: 2%;
+    padding: 2%;
+    
+}
+
+  
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+
+}
+.menu ul li{
+    margin: 25px;
+    
+    
+}
+.menu ul li img{
+    max-width: 100px;
+    border-radius: 50px;
+
+}
